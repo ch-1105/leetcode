@@ -1,4 +1,4 @@
-package com.ch.lccode.string;
+package com.ch.stringOrList.string;
 
 import java.util.Arrays;
 import java.util.HashSet;

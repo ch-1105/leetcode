@@ -1,4 +1,4 @@
-package com.ch.lccode.string;
+package com.ch.stringOrList.string;
 
 public class ReverseWords {
     public String reverseWords(String s) {

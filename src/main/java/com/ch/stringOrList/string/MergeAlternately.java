@@ -1,4 +1,4 @@
-package com.ch.lccode.string;
+package com.ch.stringOrList.string;
 
 /**
  * 1768.交替合并字符串

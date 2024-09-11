@@ -1,6 +1,4 @@
-package com.ch.lccode.list;
-
-import java.util.Arrays;
+package com.ch.stringOrList.list;
 
 public class IncreasingTriplet {
     public static boolean increasingTriplet(int[] nums) {

@@ -1,4 +1,4 @@
-package com.ch.lccode.list;
+package com.ch.stringOrList.list;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.ch.lccode.string;
+package com.ch.stringOrList.string;
 
 public class GcdOfStrings {
     public String gcdOfStrings(String s1, String s2) {

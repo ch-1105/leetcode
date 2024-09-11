@@ -1,23 +1,25 @@
-package com.ch.lccode.string;
+package com.ch.stringOrList.string;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 public class Compress {
     public int compress(char[] chars) {
         int length = chars.length;
         int left = 0;
         int right = 0;
         while (right < length) {
-            char cur = chars[right];
-            int cnt = 0;
-            while(right<length && chars[right] == cur){
+            char c = chars[right];
+            int count = 0;
+            while (right < length && c == chars[right]) {
+                count++;
                 right++;
-                cnt++;
             }
-            chars[left++] = cur;
-            if (cnt != 1) {
-                //写入cnt
-                char[] charArray = (cnt+"").toCharArray();
-                for (char c : charArray) {
-                    chars[left++] = c;
+            chars[left++] = c;
+            if(count > 1){
+                char[] charArray = (count+"").toCharArray();
+                for (char aChar : charArray) {
+                    chars[left++] = aChar;
                 }
             }
         }

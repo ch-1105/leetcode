@@ -1,4 +1,4 @@
-package com.ch.lccode.list;
+package com.ch.stringOrList.list;
 
 public class CanPlaceFlowers {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.ch.lccode;
+package com.ch.stringOrList;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

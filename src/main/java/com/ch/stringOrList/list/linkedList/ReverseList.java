@@ -1,6 +1,5 @@
-package com.ch.lccode.list.linkedList;
+package com.ch.stringOrList.list.linkedList;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class ReverseList {

@@ -1,12 +1,4 @@
-package com.ch.lccode.list;
-
-import ch.qos.logback.core.pattern.FormatInfo;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.concurrent.ForkJoinPool;
-import java.util.stream.Collectors;
+package com.ch.stringOrList.list;
 
 /**
  * 238. 除自身以外数组的乘积

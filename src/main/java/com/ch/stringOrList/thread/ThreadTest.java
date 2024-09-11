@@ -1,10 +1,7 @@
-package com.ch.lccode.thread;
+package com.ch.stringOrList.thread;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.locks.ReadWriteLock;
-import java.util.concurrent.locks.ReentrantLock;
 
 public class ThreadTest {
     public static void main(String[] args) {

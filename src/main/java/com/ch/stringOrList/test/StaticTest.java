@@ -1,4 +1,4 @@
-package com.ch.lccode.test;
+package com.ch.stringOrList.test;
 
 import java.util.*;
 
