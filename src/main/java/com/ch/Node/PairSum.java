@@ -39,6 +39,5 @@ public class PairSum {
         node.next.next = new ListNode(2);
         node.next.next.next = new ListNode(1);
         System.out.println(pairSum(node));
-
     }
 }
